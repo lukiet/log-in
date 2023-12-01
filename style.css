@@ -1,0 +1,63 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: black;
+}
+p{
+    color: blue;
+}
+h2{
+    align-content: center;
+    color: blue;
+}
+
+.out{   
+    padding: 200px 250px 0px 400px;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sign{
+    align-content: center;
+    padding: 10px 20px 30px 50px;
+    width: 300px;
+    border: solid black 0.5px;
+    border-radius: 3%;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.sign button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border: solid transparent 1px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    border-radius: 5%;
+}
+.sign a{
+    color: white;
+}
+.sign input{
+    border: black solid 1px;
+    border-radius: 5px;
+    width: 210px;
+    height: 5vh;
+    outline: none;
+}
+.sign input::placeholder{
+    font-weight: bold;
+    color: black;
+    font-size: 10px;
+}
